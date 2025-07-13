@@ -13,12 +13,12 @@ import matplotlib.pyplot as plt
 from utils import *
 __all__ = ['UNext']
 
-import timm
+# import timm
 from timm.models.layers import DropPath, to_2tuple, trunc_normal_
-import types
+# import types
 import math
-from abc import ABCMeta, abstractmethod
-from mmcv.cnn import ConvModule
+# from abc import ABCMeta, abstractmethod
+# from mmcv.cnn import ConvModule
 import pdb
 
 
